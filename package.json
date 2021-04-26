@@ -1,0 +1,31 @@
+{
+	"name": "unvgram",
+	"version": "0.1.0",
+	"description": "Telegram bot for a unv's server status",
+	"main": "bot.js",
+	"type": "module",
+	"dependencies": {
+		"node-telegram-bot-api": "^0.52.0",
+		"xdg-basedir": "^5.0.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "node cli.js",
+		"start": "node bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peoro/unvgram.git"
+	},
+	"keywords": [
+		"unvanquished",
+		"telegram",
+		"rcon"
+	],
+	"author": "peoro",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/peoro/unvgram/issues"
+	},
+	"homepage": "https://github.com/peoro/unvgram"
+}
